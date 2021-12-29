@@ -1,0 +1,95 @@
+*{margin: 0; padding: 0; box-sizing: border-box; font-family: 'Source Code Pro', monospace;}
+input:focus,button:focus{outline: 0;}
+
+body{
+    background: linear-gradient(to right, rgb(58, 121, 202), rgb(77, 50, 105))
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #2b2d2f;
+}
+
+#chat-wrap{
+    max-width: 600px;
+    margin: 30px auto;
+    border-radius: 5px;
+}
+
+#chat-window{
+    background-color: white;
+    height: 400px;
+    overflow-y: auto;
+}
+
+#output p{
+    font-size: 15px;
+    padding: 12px;
+}
+
+#output p:nth-of-type(even){
+    background-color: #d3d3d3;
+}
+
+#feedback p{
+    font-size: 13px;
+    padding: 12px;
+}
+
+#output strong{
+    color: rgb(58, 121, 202);
+}
+
+input{
+    padding: 10px 20px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    display: block;
+    width: 100%;
+    font-size: 15px;
+}
+input:focus::placeholder{
+    color: transparent;
+}
+.button-text{
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #2b2d2f;
+    color: #fff;
+    border: 0;
+    border-radius: 0 0 5px 5px;
+    width: 100%;
+    padding: 12px 0px;
+    font-size: 17px;
+    font-weight: 400;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #343636;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
